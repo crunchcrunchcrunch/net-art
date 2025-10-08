@@ -1,0 +1,62 @@
+html {
+}
+
+.title {
+  background: linear-gradient(to bottom, #ff85eb, #ffe389);
+  color: black;
+  padding: 21px;
+  display: inline-block;
+  font-family: "Kalnia Glaze", serif;
+  width: 100%;
+  font-size: 78px;
+  margin-top: -40px;
+  top: 0px;
+  left: 2px;
+}
+.subtitle {
+  background: linear-gradient(to top, #fffbee, #ffe89b, #ffe389);
+  color: rgb(255, 25, 182);
+  padding: 29px;
+  display: flex;
+  font-family: "Bonbon", cursive;
+  width: 100%;
+  font-size: 38px;
+  margin-top: -100px;
+  top: -20px;
+  align-items: flex-start;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Jersey 25", sans-serif;
+  margin-top: -30px;
+  font-size: 25px;
+  background: linear-gradient(to bottom, #ffffff, #ffe89b, #ff72dc);
+  padding: 20px;
+}
+#navbar li {
+  list-style-type: none;
+  padding: 0 110px;
+}
+#navbar li a {
+  color: #ff21ff;
+}
+
+#navbar li a:hover {
+  background-color: #ff21ff;
+  color: rgb(255, 239, 93);
+  transform: scale(2);
+}
+.items {
+  color: rgb(255, 133, 239);
+  padding: 21px;
+  display: inline-block;
+  font-family: "Jersey 25", sans-serif;
+  width: 100%;
+  font-size: 30px;
+  margin-top: 4px;
+  top: 0px;
+  left: 2px;
+}
