@@ -25,9 +25,9 @@ document.querySelector("#yess").addEventListener("click", function () {
 
   // go back n forth
   const currentSrc = el.getAttribute("src");
-  const newSrc = currentSrc.includes("che")
+  const newSrc = currentSrc.includes("merp")
     ? "./images/chess.jpg"
-    : "./images/che.png";
+    : "./images/merp.png";
 
   el.setAttribute("src", newSrc);
 });
