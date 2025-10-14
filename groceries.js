@@ -25,10 +25,9 @@ document.querySelector("#che").addEventListener("click", function () {
 
   // go back n forth
   const currentSrc = el.getAttribute("src");
-  const newSrc =
-    currentSrc === "./images/che.png"
-      ? "./images/chess.jpg"
-      : "./images/che.png";
+  const newSrc = currentSrc.includes("chess")
+    ? "./images/che.png"
+    : "./images/chess.jpg";
 
   el.setAttribute("src", newSrc);
 });
