@@ -19,15 +19,15 @@ document.querySelector("#fastrak").addEventListener("click", function () {
   el.setAttribute("src", newSrc);
 });
 
-document.querySelector("#che").addEventListener("click", function () {
-  const el = document.querySelector("#che");
+document.querySelector("#yess").addEventListener("click", function () {
+  const el = document.querySelector("#yess");
   if (!el) return;
 
   // go back n forth
   const currentSrc = el.getAttribute("src");
-  const newSrc = currentSrc.includes("chess")
-    ? "./images/che.png"
-    : "./images/chess.jpg";
+  const newSrc = currentSrc.includes("che")
+    ? "./images/chess.jpg"
+    : "./images/che.png";
 
   el.setAttribute("src", newSrc);
 });
