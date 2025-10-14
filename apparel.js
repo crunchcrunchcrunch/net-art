@@ -10,8 +10,8 @@ document.querySelector("#meta").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("mark")
-    ? "images/jeans.jpg"
-    : "images/mark.png";
+    ? "./images/jeans.jpg"
+    : "./images/mark.png";
 
   el.setAttribute("src", newSrc);
 });

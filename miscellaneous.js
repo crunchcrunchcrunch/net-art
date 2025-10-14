@@ -5,8 +5,8 @@ document.querySelector("#dreams").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("dreams")
-    ? "images/jet.jpg"
-    : "images/woman.png";
+    ? "./images/jet.jpg"
+    : "./images/woman.png";
   el.setAttribute("src", newSrc);
 });
 setTimeout(function () {
@@ -24,8 +24,8 @@ document.querySelector("#timb").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("timb")
-    ? "images/loveseat.jpeg"
-    : "images/soldout.png";
+    ? "./images/loveseat.jpeg"
+    : "./images/soldout.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -37,8 +37,8 @@ document.querySelector("#one").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("one")
-    ? "images/chemistry.jpeg"
-    : "images/credit.png";
+    ? "./images/chemistry.jpeg"
+    : "./images/credit.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -50,8 +50,8 @@ document.querySelector("#acre").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("acre")
-    ? "images/mule.jpeg"
-    : "images/mark.png";
+    ? "./images/mule.jpeg"
+    : "./images/mark.png";
 
   el.setAttribute("src", newSrc);
 });
