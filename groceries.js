@@ -13,8 +13,8 @@ document.querySelector("#fastrak").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("irs")
-    ? "/images/ant.jpeg"
-    : "/images/fastrak.png";
+    ? "images/ant.jpeg"
+    : "images/fastrak.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -51,8 +51,8 @@ document.querySelector("#zuck").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("mark")
-    ? "/images/crumbs.png"
-    : "/images/mark.png";
+    ? "images/crumbs.png"
+    : "images/mark.png";
 
   el.setAttribute("src", newSrc);
 });

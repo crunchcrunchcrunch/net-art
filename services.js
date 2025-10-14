@@ -21,8 +21,8 @@ document.querySelector("#cook").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("cook")
-    ? "/images/chef.jpeg"
-    : "/images/bank.png";
+    ? "images/chef.jpeg"
+    : "images/bank.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -47,8 +47,8 @@ document.querySelector("#hi").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("hi")
-    ? "/images/henry.jpeg"
-    : "/images/drake.png";
+    ? "images/henry.jpeg"
+    : "images/drake.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -60,8 +60,8 @@ document.querySelector("#ob").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("ob")
-    ? "/images/boyf.jpeg"
-    : "/images/barack.png";
+    ? "images/boyf.jpeg"
+    : "images/barack.png";
 
   el.setAttribute("src", newSrc);
 });

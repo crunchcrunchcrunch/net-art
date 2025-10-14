@@ -10,8 +10,8 @@ document.querySelector("#one").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("one")
-    ? "/images/parttwo.jpg"
-    : "/images/partone.jpg";
+    ? "images/parttwo.jpg"
+    : "images/partone.jpg";
 
   el.setAttribute("src", newSrc);
 });
@@ -23,8 +23,8 @@ document.querySelector("#obama").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("obama")
-    ? "/images/lambo.jpeg"
-    : "/images/barack.png";
+    ? "images/lambo.jpeg"
+    : "images/barack.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -39,8 +39,8 @@ document.querySelector("#hypo").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("obama")
-    ? "/images/dust.jpeg"
-    : "/images/credit.png";
+    ? "images/dust.jpeg"
+    : "images/credit.png";
 
   el.setAttribute("src", newSrc);
 });
@@ -51,8 +51,8 @@ document.querySelector("#irs").addEventListener("click", function () {
   // go back n forth
   const currentSrc = el.getAttribute("src");
   const newSrc = currentSrc.includes("irs")
-    ? "/images/fda.jpeg"
-    : "/images/bank.png";
+    ? "images/fda.jpeg"
+    : "images/bank.png";
 
   el.setAttribute("src", newSrc);
 });
